@@ -1,9 +1,10 @@
 package org.example;
 
 import org.apache.commons.io.ByteOrderMark;
+import org.apache.commons.io.file.PathUtils;
 
 public class Thing {
         public Thing () {
-        new ByteOrderMark("utf-8");
+            System.out.println(PathUtils.current());
     }
 }
