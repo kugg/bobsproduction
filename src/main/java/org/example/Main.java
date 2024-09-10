@@ -12,5 +12,6 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         Path path = PathUtils.current();
         System.out.println(path);
+        System.out.println("Fancy produciton2");
     }
 }
