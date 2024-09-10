@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class ThingTests {
     @Test
-    public void TestTheThing() {
+    public void testTheThing() {
         Thing T = new Thing();
     }
 }
