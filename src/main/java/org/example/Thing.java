@@ -5,6 +5,6 @@ import org.apache.commons.io.file.PathUtils;
 
 public class Thing {
         public Thing () {
-            System.out.println(PathUtils.current());
+            System.out.println("Current path: " + PathUtils.current());
     }
 }
